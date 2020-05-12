@@ -97,12 +97,7 @@ else {
                                             <label>Visiting Doctor</label>
                                             <input class="form-control" name="visiting_doctor" disabled="true" tabindex="6" value="<?php echo $get_visitreason['visiting_doctor']; ?>">
                                             
-                                        </div>	
-                                        <div class="form-group col-lg-4">
-                                            <label>Hospital</label>
-                                            <input class="form-control" name="hospital_name" disabled="true" tabindex="6" value="<?php echo $user->getHospitalName($get_visitreason['hospital_id']); ?>">
-                                            
-                                        </div>  										
+                                        </div> 										
                                     </div>                                    
                                     <input type="hidden" name="p_id" value="<?php echo $p_id; ?>">
                                 </form>
